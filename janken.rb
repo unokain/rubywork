@@ -10,6 +10,7 @@ class Player
     if input_hund <= 2
       return input_hund
     else input_hund < 2
+      puts "0〜2の数字を入力してください。"
       puts "もう一度数字を入力してください。"
       puts "0:グー, 1:チョキ, 2:パー"
     # 変数「input_hand」にプレイヤーが入力したものを取得して代入します。
