@@ -6,10 +6,10 @@ class Player
     puts "数字を入力してください。"
     puts "0:グー, 1:チョキ, 2:パー"
     while true
-    input_hund = gets.to_i
-    if input_hund <= 2
-      return input_hund
-    else input_hund < 2
+    input_hund = gets
+    if input_hund == "0\n"||input_hund == "2\n"||input_hund == "1\n"
+      return input_hund.to_i
+    else
       puts "0〜2の数字を入力してください。"
       puts "もう一度数字を入力してください。"
       puts "0:グー, 1:チョキ, 2:パー"
